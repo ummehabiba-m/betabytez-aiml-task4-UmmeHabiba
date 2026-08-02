@@ -147,10 +147,7 @@ chatbot produced them.
 **Result:** ✅ Grounded, correctly answered from the Transformer paper.
 
 **2. "How does retrieval-augmented generation combine parametric and non-parametric memory?"**
-> [Answer drawn directly from RAG paper text describing the hybrid architecture
-> — a pre-trained seq2seq transformer as parametric memory, combined with a
-> dense vector index of Wikipedia accessed via a neural retriever as
-> non-parametric memory.]
+According to the provided context, retrieval-augmented generation (RAG) combines pre-trained parametric and non-parametric memory for language generation. Specifically, the parametric memory is a pre-trained sequence-to-sequence (seq2seq) transformer, and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever (Dense Passage Retriever [26], henceforth DPR). These components are combined in a probabilistic model trained end-to-end.
 
 **Sources:** Retrieval-Augmented Generation (RAG) — pages 1, 2, 9
 **Result:** ✅ Grounded, correctly answered from the RAG paper.
